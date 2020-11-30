@@ -4,27 +4,26 @@
 
 ## 实验目的
 
-*掌握字符串String及其方法的使用
-*掌握文件的读取/写入方法
-*掌握异常处理结构
+* 掌握字符串String及其方法的使用
+* 掌握文件的读取/写入方法
+* 掌握异常处理结构
 
 
 ## 实验要求
 
-* 设计老师管理与学生管理两个接口，分别有查薪水，发放薪水，缴纳学费，查学费等方法
-* 设计博士生类，实现上述两个接口，并详细化接口的方法
-* 该博士生类具有姓名，性别，年龄，每学期学费，每月薪水等属性，
-* 测试类，实例化至少两个博士类，拥有统计年收入，年学费，计算两者之差，年缴税等的方法，最后输出信息
+* 设计学生类，包括学生基本信息
+* 设计文件处理类，实现格式化输出诗句到文件
+* 采用交互式方式实例化学生类
 
 ## 核心代码
 ```
-Scanner sc = new Scanner(System.in);
-Scanner sc2 = new Scanner(System.in);
-dc.name=sc.next();
-dc.age=sc.nextInt();
-dc.sex=sc.next();
-dc.sal=sc.nextFloat();
-dc.tu=sc.nextFloat();
+char o = sc.next().charAt(0); //查找字符出现次数
+char[] ch =str.toCharArray();
+for(int i=0;i<ch.length;i++){
+  if(o==ch[i]){
+      count++;
+         }
+   }
 ```
 ```
 try {
