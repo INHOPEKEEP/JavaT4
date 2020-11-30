@@ -26,15 +26,22 @@ for(int i=0;i<ch.length;i++){
    }
 ```
 ```
-try {
-            t.catM(dc1);
-            //System.out.println("\n");
-            System.out.println("-----------------------------------------------");
-            System.out.println("-----------------------------------------------");
-            t.catM(dc2);}
-        catch (Exception e){
-            System.out.println("输入有误，请按规则输入！");
-        }
+for (int i=7,x=0; i<=14*17;i+=7,x+=7) { //输出诗句到文件
+
+                if (i % 2 == 0) {
+                    for (int j = x; j < i; j++) {
+                        out.write(c[j]);
+                    }
+                    out.write("。\n");
+
+                } else {
+                    for (int j = x; j < i; j++) {
+                        out.write(c[j]);
+                    }
+                    out.write(",");
+
+                }
+            }
 ```
 ## 实验结果
 
